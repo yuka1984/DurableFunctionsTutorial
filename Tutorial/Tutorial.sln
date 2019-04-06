@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial1", "Tutorial1\Tutorial1.csproj", "{F9A172AB-F240-474B-B6DB-E63B9E7E5C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial1", "Tutorial1\Tutorial1.csproj", "{F9A172AB-F240-474B-B6DB-E63B9E7E5C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial2", "Tutorial2\Tutorial2.csproj", "{A6856ABE-99A8-479C-808E-503BE76F28BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial2", "Tutorial2\Tutorial2.csproj", "{A6856ABE-99A8-479C-808E-503BE76F28BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial3", "Tutorial3\Tutorial3.csproj", "{66CCD625-43B0-4869-BD01-340E6E753ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial3", "Tutorial3\Tutorial3.csproj", "{66CCD625-43B0-4869-BD01-340E6E753ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4", "Tutorial4\Tutorial4.csproj", "{4BEC988D-2BE3-4278-9EF3-ABF96FE69AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial4", "Tutorial4\Tutorial4.csproj", "{4BEC988D-2BE3-4278-9EF3-ABF96FE69AC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial5", "Tutorial5\Tutorial5.csproj", "{5F820D4E-82A7-41ED-BF87-8F8237BA10AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial5", "Tutorial5\Tutorial5.csproj", "{5F820D4E-82A7-41ED-BF87-8F8237BA10AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial6", "Tutorial6\Tutorial6.csproj", "{1930B81B-E5DA-4AA6-A80E-C3F6BBECD821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5F820D4E-82A7-41ED-BF87-8F8237BA10AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F820D4E-82A7-41ED-BF87-8F8237BA10AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F820D4E-82A7-41ED-BF87-8F8237BA10AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1930B81B-E5DA-4AA6-A80E-C3F6BBECD821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1930B81B-E5DA-4AA6-A80E-C3F6BBECD821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1930B81B-E5DA-4AA6-A80E-C3F6BBECD821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1930B81B-E5DA-4AA6-A80E-C3F6BBECD821}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
