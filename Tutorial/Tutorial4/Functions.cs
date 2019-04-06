@@ -62,7 +62,7 @@ namespace Tutorial4
             return Task.FromResult(0);
         }
 
-        [FunctionName(nameof(ActivityAcceptZero))]
+        [FunctionName(nameof(ActivityDelay))]
         public async Task<bool> ActivityDelay([ActivityTrigger] DurableActivityContextBase durable)
         {
             await Task.Delay(TimeSpan.FromMinutes(1));

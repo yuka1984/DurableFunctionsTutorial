@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "HubName": "Tutorial5",
+      "ControlQueueVisibilityTimeout": "1:00:00",
+      "WorkItemQueueVisibilityTimeout": "1:00:00"
+    }
+  }
+}
