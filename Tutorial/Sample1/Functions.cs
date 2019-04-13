@@ -32,7 +32,7 @@ namespace Sample1
             {
                 var lastRun = tableResulet.Results.OrderByDescending(x => x.Timestamp).First();
                 DurableOrchestrationClientBase taskDurable = durableClient;
-                if (durableClient.TaskHubName == lastRun.TaskHubName)
+                if (durableClient.TaskHubName != lastRun.TaskHubName)
                 {
                     taskDurable = await binder.BindAsync<DurableOrchestrationClientBase>(new OrchestrationClientAttribute { TaskHub = lastRun.TaskHubName });
                 }
